@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Your Local News</title>
+        <link rel="stylesheet" href="styles.css"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Source+Serif+Pro&display=swap" rel="stylesheet">
+        <script src="app.js" defer></script>
+    </head>
+
+    <body>
+        <header>
+            <h1 class="heading">	
+                &#127759; Your Local News &#127759;</h1>
+        <!--navigation bar-->
+            <nav>
+                <ul class="flex-container">
+                    <a href="./index.html">Home</a><br>
+                    <a href="./localNews.html">About</a><br>
+                    <a href="./contact.html">Contact</a><br>
+                </ul>
+            </nav>
+            <button id="dark_mode_button">Dark Mode</button>
+        </header>
+
+        <main>
+            <!--title page-->
+            <section id="title_section">
+                <h2>Find all the latest News in one place!</h2>
+                <p class="text">To see news in your local area, enter your postcode below</p>
+                <div>
+                    <form action="localNews.html" method="get">
+                        <label for="postcode">Postcode:</label>
+                        <input class="text1" name="postcode" placeholder="E1 7EZ"><br><br>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+                <br>
+                <br>
+
+                <img class="globe" src="./106837429-1612830977849-Constellation_orangebleu-02_002.jpeg" alt="global news">
+            </section>
+
+            <section>
+                <header>
+                    <h2 id="topNews">Top News Stories</h2>
+                </header>
+                <main>
+                    <section class="post">
+                        <h3 id="newsTitle">How unrelenting and unsustainable pressure is sweeping the NHS - as COVID staff crisis intensifies</h3>
+                        <h4>Date: Wednesday 5 January 2022 13:48, UK</h4>
+                        <p>One NHS Trust leader said staff shortages had become so bad over Christmas and into the New Year that he was sending his staff home for a short break between shifts and asking them to return for a double shift to cover absent colleagues.</p>
+                    </section>
+                    <section class="post">
+                        <h3 id="newsTitle">Boris Johnson to make announcement to nation on Wednesday</h3>
+                        <h4>Date: Wednesday 5 January 2022 10:07, UK</h4>
+                        <p>The Prime Minister will address the nation and fellow MPs in a brief statement after Prime Ministers Questions today. Mr Johnson will face Angela Rayner at PMQs after Sir Keir Starmer tested positive for Covid - again.</p>
+                    </section>
+                    <section class="post">
+                        <h3 id="newsTitle">Prepare for THUNDERSNOW: Blizzards and lightning strikes could see homes knocked off the power grid across the north as temperatures plunge to -10C and extreme weather warning is extended to cover the Midlands</h3>
+                        <h4>Date: Wednesday 5 January 2022 12:06, UK</h4>
+                        <p>Thundersnow could hit Scotland this week with blizzards and lightning strikes leaving homes without power as meteorologists warn of freezing -10C temperatures.
+
+                            The Met Office has warned of dangerous weather conditions on Thursday and Friday with as much as 10cm of snow falling on the highest ground, as well as the risk of dangerous icy patches and of lightning strikes from isolated thunderstorms.</p>
+                    </section>
+                </main>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>Alimaa Hashim &#169; 2022</p> 
+        </footer>
+
+    </body>
+</html>
